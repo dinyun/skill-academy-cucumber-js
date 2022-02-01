@@ -1,4 +1,4 @@
-Feature: Search Skill Academy
+Feature: Testing API
 
     As a user, I want to seach a class in skill academy
 
@@ -7,7 +7,6 @@ Feature: Search Skill Academy
         Given I am on the skillacademy page
 
     Scenario Outline: Performing search a class
-        When I search <class> into the search box
         Then I send get request to "https://skillacademy.com/skillacademy/discovery/search"
 
         Examples:
